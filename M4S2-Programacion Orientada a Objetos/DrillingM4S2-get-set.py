@@ -1,4 +1,5 @@
-        #-----Carlos Mamani-----#
+        #-----CARLOS MAMANI-----#
+# DISEÑO DE LA CLASE PERSONA CON MÉTODOS O COMPORTAMIENTOS #
 
 # Importando la función tabulate para mostrar tablas
 from tabulate import tabulate
@@ -26,7 +27,7 @@ class Persona:
         self._estatura = estatura
     def set_peso(self, peso):
         self._peso = peso
-        
+
     # Métodos para acceder a los atributos privados
     def get_edad(self):
         return self._edad
