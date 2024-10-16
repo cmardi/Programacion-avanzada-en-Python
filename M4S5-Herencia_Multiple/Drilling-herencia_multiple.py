@@ -1,3 +1,6 @@
+            #-----CARLOS MAMANI-----#
+#           HERENCIA MÚLTIPLE            #
+
 class Persona:
     def __init__(self, nombre, apellido, año):
         self.nombre = nombre
