@@ -85,7 +85,7 @@ class ManejoDatos:
                         vehiculos['Motocicleta'].append(datos)
 
                 for tipo, lista_vehiculos in vehiculos.items():
-                    print(f"Lista de Vehiculos {tipo}:")
+                    print(f"\nLista de Vehiculos {tipo}:")
                     for vehiculo in lista_vehiculos:
                         print(f" {vehiculo}")
         except Exception as e:
