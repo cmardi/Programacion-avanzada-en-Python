@@ -1,3 +1,6 @@
+        #-----CARLOS MAMANI-----#
+# SISTEMA DE CONTROL DE VEHICULOS #
+
 from dataclasses import dataclass
 
 @dataclass

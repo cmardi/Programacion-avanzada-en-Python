@@ -1,3 +1,6 @@
+        #-----CARLOS MAMANI-----#
+# SISTEMA DE CONTROL DE VEHICULOS #
+
 import csv
 import ast
 from Parte2.particular import Particular
@@ -104,36 +107,4 @@ class ManejoDatos:
 
 
 
-    # def leer_datos_csv(self):
-    #     try:
-    #         with open('vehiculos.csv', 'r') as archivo_csv:
-    #             reader = csv.reader(archivo_csv)
-    #             next(reader)
-    #             vehiculos = {
-    #                 'Particular': [],
-    #                 'Carga': [],
-    #                 'Bicicleta': [],
-    #                 'Motocicleta': []
-    #             }
-    #             for row in reader:
-    #                 clase, datos_str = row
-    #                 datos = ast.literal_eval(datos_str)  # Usar ast.literal_eval() en lugar de eval()
-    #                 print(f"Leído {clase}: {datos}") 
-                    
-    #                 if 'nro_puestos' in datos:
-    #                     vehiculos['Particular'].append(datos)
-    #                 elif 'peso_carga' in datos:
-    #                     vehiculos['Carga'].append(datos)
-    #                 elif 'tipo' in datos and all(key in datos for key in ['nro_ruedas']):
-    #                 #elif 'tipo' in datos:
-    #                     vehiculos['Bicicleta'].append(datos)
-    #                 elif all(key in datos for key in ['tipo', 'motor', 'cuadro', 'nro_radios']):
-    #                     vehiculos['Motocicleta'].append(datos)
-                    
-
-    #             for tipo, lista_vehiculos in vehiculos.items():
-    #                 print(f"Lista de Vehiculos {tipo}:")
-    #                 for vehiculo in lista_vehiculos:
-    #                     print(f" {vehiculo}")
-    #     except Exception as e:
-    #         print(f"Error al leer datos del CSV: {e}")
+   

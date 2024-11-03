@@ -1,3 +1,6 @@
+        #-----CARLOS MAMANI-----#
+# SISTEMA DE CONTROL DE VEHICULOS #
+
 from Parte1.automovil import Automovil
 from Parte1.vehiculo import Vehiculo
 from Parte2.particular import Particular
